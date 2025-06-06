@@ -2,6 +2,10 @@ import './Product.css';
 
 function Product({title, price=10, feature,  feature2, feature3}) {
     const list = feature3.map((featureeee) => <li>{featureeee}</li>)
+    let mystyle = {
+        backgroundColor: price>30000 ? "grey" :"pink"
+        // use cameCase format here
+    }
     // Method 1
     // if(price>=30000){
     //     return(
@@ -28,7 +32,7 @@ function Product({title, price=10, feature,  feature2, feature3}) {
 
     // Method 2 and 3 
     return(
-        <div className="Product">  
+        <div className="Product" style={mystyle}>  
             <h3>{title}</h3>
             <p>Product Price: {price}</p>
             <p>FEATURE1: {feature}</p>
