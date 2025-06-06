@@ -40,8 +40,28 @@ Fragment: (<>......</>)
 
 
 
-
 3 Imporatnt Pillar in React 
     Component
     Props
     State
+
+
+React_Part3_State
+State:
+    State is a built-in React object used to store data that can change over time in a component.
+
+    State is used to manage dynamic data in a component and re-render UI when the data changes.
+
+Hooks:
+    Hooks are special functions in React that let you use state and other React features in functional components.
+
+    Hooks allow functional components to manage state, side effects, and more without using classes.
+    
+    Some Common Hooks:
+        useState() – to manage state
+
+        useEffect() – to handle side effects (like API calls)
+
+        useContext() – to use context API
+
+        useRef(), useMemo(), useCallback() – for optimization and references
