@@ -1,0 +1,39 @@
+https://react.dev/
+REACT:
+    React is a JavaScript library used for building user interfaces, especially for single-page applications (SPAs) where you want fast, dynamic updates without reloading the whole page.
+
+COMPONENT:
+    A component in React is a function or class that returns HTML+JS like UI code.
+    2 Types:
+        Functional Component – A simple JavaScript function.Class Component – An older way (less used now).
+
+JSX:
+    JSX stands for JavaScript XML.
+    It lets you write HTML inside JavaScript.
+
+Installation of React:
+    npm create vite@latest (main)
+
+
+#IMPORTANT:
+    Babel is a JavaScript compiler that converts modern JavaScript (like JSX or ES6+) into plain JavaScript that all browsers can understand.
+    https://babeljs.io/
+
+Fragment: (<>......</>)
+    function Info() {
+        return (
+            <div>
+                <h1>Welcome</h1>
+                <p>This is React Fragment.</p>
+            <div/>
+        );
+    }
+    REPLACE BY
+    function Info() {
+        return (
+            <>
+                <h1>Welcome</h1>
+                <p>This is React Fragment.</p>
+            </>
+        );
+    }
