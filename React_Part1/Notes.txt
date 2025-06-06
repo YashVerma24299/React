@@ -1,0 +1,8 @@
+In these Part we learn about:
+    JSX
+    Set up local environment
+    Import-Export
+    Fragment
+    JSX with curly Brackets
+    Structuring
+    
