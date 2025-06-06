@@ -15,12 +15,17 @@
 // }
 
 import {useState} from 'react';
+
 export default function Counter(){
     // let arr = useState(0);
     // console.log(arr);
-
     // let [stateVariable, setStateVariable] = useState(0); // aisa bnate hai
     
+    console.log("Component is rendered!");
+    // Isse ye pta chl rha heki jab jab usestate vaala funda lgta hai,
+    // pura code run hotha hai vaapas,
+    // let [count, setCount] = useState(0); iss chejj ko chodke.....
+
     let [count, setCount] = useState(0);
     function handleCount(){
         setCount(count+=1);
