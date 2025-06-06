@@ -46,6 +46,22 @@ Fragment: (<>......</>)
     State
 
 
+Closure in JS:
+    The inner function can access variables declared in the outer function, even after the outer function has finished executing.
+    
+    This relationship — where the inner function "remembers" the outer function's variables — is called a closure
+
+    function outer() {
+        let name = "Yash";   // 👈 outer function variable
+
+        function inner() {
+            console.log("Hello " + name);  // 👈 inner function uses outer's variable
+        }
+
+        return inner;
+    }
+
+
 React_Part3_State
 State:
     State is a built-in React object used to store data that can change over time in a component.
