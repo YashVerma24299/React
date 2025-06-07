@@ -89,3 +89,8 @@ Hooks:
         useContext() – to use context API
 
         useRef(), useMemo(), useCallback() – for optimization and references
+
+
+React_part6
+UseEffect():
+    tab use hota hai jab humein component render hone par ya update hone par koi kaam karwana ho — jaise API call, console log, timer set karna, etc
