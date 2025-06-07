@@ -1,0 +1,13 @@
+Material UI in React:
+    https://mui.com/material-ui/
+
+    Material UI (MUI) is a popular React component library that provides ready-made, stylish, and responsive UI components
+
+    Material UI -> like Bootstrap
+
+Installation:
+    https://mui.com/material-ui/getting-started/installation/
+
+
+VERY IMPORTANT
+Material UI ko jaakr dhekna haii aur aache se research krni h isprrrrrrrrrrrrrrrrrrrrrrr

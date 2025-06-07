@@ -4,6 +4,7 @@
 
 
 import { useState, useEffect } from "react"
+import Button from '@mui/material/Button';
 
 // Basic useEffect
 // export default function Counter(){
@@ -87,7 +88,7 @@ export default function Counter(){
         <>
             <div className="Counter">
                 <p>count ={count1}</p>
-                <button onClick={handleCount1}>Count</button>
+                <Button onClick={handleCount1} variant="contained">Count</Button>
                 <br /><br /><br />
                 <p>count ={count2}</p>
                 <button onClick={handleCount2}>Count</button>
