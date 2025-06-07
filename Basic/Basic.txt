@@ -41,7 +41,15 @@ Fragment: (<>......</>)
 
 
 3 Imporatnt Pillar in React 
-    Component
+    Component:
+        Class
+        functional:
+            Logical Components
+                -> Not focused on UI, but on how things work.
+                -> Manage state, side effects
+            Presentational Components
+                -> Focus on UI rendering.
+                -> No state
     Props
     State
 
