@@ -1,0 +1,3 @@
+we are given lottery with a 3 digit number,
+The number is generated randomly,
+If the sum of all digits is 15, we win the lottery & get the prize.
